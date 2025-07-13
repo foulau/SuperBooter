@@ -1,0 +1,177 @@
+display_managers:
+  - name: Display Managers
+  gdm:
+    - name: GNOME Display Manager
+    - id: 1
+  lightdm:
+    - name: LightDM
+    - id: 2
+  sddm:
+    - name: Simple Desktop Display Manager
+    - id: 3
+  lxdm:
+    - name: LXDM
+    - id: 4
+  xdm:
+    - name: X Display Manager
+    - id: 5
+browsers:
+  - name: Browsers
+  brave:
+    - name: Brave Browser
+    - id: 6
+editors:
+  - name: Editors
+  vscode:
+    - name: Visual Studio Code
+    - id: 7
+games:
+  - name: Games
+  steam:
+    - name: Steam
+    - id: 8
+  lutris:
+    - name: Lutris
+    - id: 9
+  heroic:
+    - name: Heroic Games Launcher
+    - id: 10
+  gog-galaxy:
+    - name: GOG Galaxy
+    - id: 11
+  epic-games:
+    - name: Epic Games Launcher
+    - id: 12
+  proton-ge:
+    - name: Proton GE (GloriousEggroll)
+    - id: 13
+  protonup-qt:
+    - name: ProtonUp-Qt
+    - id: 14
+  protontricks:
+    - name: ProtonTricks
+    - id: 15
+  gamehub:
+    - name: GameHub
+    - id: 16
+  playnite:
+    - name: Playnite
+    - id: 17
+  itch:
+    - name: itch.io App
+    - id: 18
+visual_additions:
+  - name: Visual Additions
+  arcmenus:
+    - name: Arc Menu
+    - id: 19
+  latte-dock:
+    - name: Latte Dock
+    - id: 20
+  plank:
+    - name: Plank Dock
+    - id: 21
+  dash-to-panel:
+    - name: Dash to Panel
+    - id: 22
+  dash-to-dock:
+    - name: Dash to Dock
+    - id: 23
+system_update:
+  - name: System Update
+  apt:
+    - name: APT (Advanced Package Tool)
+    - id: 24
+  flatpak:
+    - name: Flatpak
+    - id: 25
+  snap:
+    - name: Snap
+    - id: 26
+drivers:
+  - name: Drivers
+  bluetooth:
+    intel:
+      - name: Intel Bluetooth drivers
+      - id: 27
+    broadcom:
+      - name: Broadcom Bluetooth drivers
+      - id: 28
+    realtek:
+      - name: Realtek Bluetooth drivers
+      - id: 29
+  network:
+    intel:
+      - name: Intel Network Drivers
+      - id: 30
+    broadcom:
+      - name: Broadcom Network Drivers
+      - id: 31
+    realtek:
+      - name: Realtek Network Drivers
+      - id: 32
+    ralink:
+      - name: Ralink Network Drivers
+      - id: 33
+    atheros:
+      - name: Atheros Network Drivers
+      - id: 34
+  wifi:
+    intel:
+      - name: Intel Wi-Fi Drivers
+      - id: 35
+    broadcom:
+      - name: Broadcom Wi-Fi Drivers
+      - id: 36
+    realtek:
+      - name: Realtek Wi-Fi Drivers
+      - id: 37
+  graphics:
+    intel:
+      - name: Intel Graphics Drivers
+      - id: 38
+    nvidia:
+      - name: NVIDIA Graphics Drivers
+      - id: 39
+    amd:
+      - name: AMD Graphics drivers
+      - id: 40
+  audio:
+    intel:
+      - name: Intel Audio Drivers
+      - id: 41
+    realtek:
+      - name: Realtek Audio Drivers
+      - id: 42
+    creative:
+      - name: Creative Audio Drivers
+      - id: 43
+  printers:
+    generic:
+      - name: Generic Printer Drivers
+      - id: 44
+    hp:
+      - name: HP Printer Drivers
+      - id: 45
+    canon:
+      - name: Canon Printer Drivers
+      - id: 46
+    epson:
+      - name: Epson Printer Drivers
+      - id: 47
+    brother:
+      - name: Brother Printer Drivers
+      - id: 48
+  scanners:
+    generic:
+      - name: Generic Scanner Drivers
+      - id: 49
+    hp:
+      - name: HP Scanner Drivers
+      - id: 50
+    canon:
+      - name: Canon Scanner Drivers
+      - id: 51
+    epson:
+      - name: Epson Scanner Drivers
+      - id: 52
