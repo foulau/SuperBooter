@@ -90,88 +90,87 @@ system_update:
     - id: 26
 drivers:
   - name: Drivers
-  bluetooth:
-    intel:
-      - name: Intel Bluetooth drivers
-      - id: 27
-    broadcom:
-      - name: Broadcom Bluetooth drivers
-      - id: 28
-    realtek:
-      - name: Realtek Bluetooth drivers
-      - id: 29
-  network:
-    intel:
-      - name: Intel Network Drivers
-      - id: 30
-    broadcom:
-      - name: Broadcom Network Drivers
-      - id: 31
-    realtek:
-      - name: Realtek Network Drivers
-      - id: 32
-    ralink:
-      - name: Ralink Network Drivers
-      - id: 33
-    atheros:
-      - name: Atheros Network Drivers
-      - id: 34
-  wifi:
-    intel:
-      - name: Intel Wi-Fi Drivers
-      - id: 35
-    broadcom:
-      - name: Broadcom Wi-Fi Drivers
-      - id: 36
-    realtek:
-      - name: Realtek Wi-Fi Drivers
-      - id: 37
-  graphics:
-    intel:
-      - name: Intel Graphics Drivers
-      - id: 38
-    nvidia:
-      - name: NVIDIA Graphics Drivers
-      - id: 39
-    amd:
-      - name: AMD Graphics drivers
-      - id: 40
-  audio:
-    intel:
-      - name: Intel Audio Drivers
-      - id: 41
-    realtek:
-      - name: Realtek Audio Drivers
-      - id: 42
-    creative:
-      - name: Creative Audio Drivers
-      - id: 43
-  printers:
-    generic:
-      - name: Generic Printer Drivers
-      - id: 44
-    hp:
-      - name: HP Printer Drivers
-      - id: 45
-    canon:
-      - name: Canon Printer Drivers
-      - id: 46
-    epson:
-      - name: Epson Printer Drivers
-      - id: 47
-    brother:
-      - name: Brother Printer Drivers
-      - id: 48
-  scanners:
-    generic:
-      - name: Generic Scanner Drivers
-      - id: 49
-    hp:
-      - name: HP Scanner Drivers
-      - id: 50
-    canon:
-      - name: Canon Scanner Drivers
-      - id: 51
-    epson:
-      - name: Epson Scanner Drivers
-      - id: 52
+    bluetooth:
+      - name: Bluetooth
+      intel:
+        - name: Intel Bluetooth drivers
+          id: 27
+        - name: Broadcom Bluetooth drivers
+          id: 28
+        - name: Realtek Bluetooth drivers
+          id: 29
+    network:
+      - name: LAN
+      intel:
+        - name: Intel Network Drivers
+          id: 30
+        - name: Broadcom Network Drivers
+          id: 31
+        - name: Realtek Network Drivers
+          id: 32
+        - name: Ralink Network Drivers
+          id: 33
+        - name: Atheros Network Drivers
+          id: 34
+    wifi:
+      - name: Wi‑Fi
+      intel:
+        - name: Intel Wi‑Fi Drivers
+          id: 35
+        - name: Broadcom Wi‑Fi Drivers
+          id: 36
+        - name: Realtek Wi‑Fi Drivers
+          id: 37
+    graphics:
+      - name: Graphics
+      intel:
+        - name: Intel Graphics Drivers
+          id: 38
+      nvidia:
+        - name: NVIDIA Graphics Drivers
+          id: 39
+      amd:
+        - name: AMD Graphics drivers
+          id: 40
+    audio:
+      - name: Audio
+      intel:
+        - name: Intel Audio Drivers
+          id: 41
+      realtek:
+        - name: Realtek Audio Drivers
+          id: 42
+      creative:
+        - name: Creative Audio Drivers
+          id: 43
+    printers:
+      - name: Printers
+      generic:
+        - name: Generic Printer Drivers
+          id: 44
+      hp:
+        - name: HP Printer Drivers
+          id: 45
+      canon:
+        - name: Canon Printer Drivers
+          id: 46
+      epson:
+        - name: Epson Printer Drivers
+          id: 47
+      brother:
+        - name: Brother Printer Drivers
+          id: 48
+    scanners:
+      - name: Scanners
+      generic:
+        - name: Generic Scanner Drivers
+          id: 49
+      hp:
+        - name: HP Scanner Drivers
+          id: 50
+      canon:
+        - name: Canon Scanner Drivers
+          id: 51
+      epson:
+        - name: Epson Scanner Drivers
+          id: 52
